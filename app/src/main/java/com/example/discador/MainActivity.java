@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main); // É o que liga a classe java com a classe xml de layout
+        setContentView(R.layout.activity_main);
         edtDisplay = findViewById(R.id.edtDisplay);
     }
 
